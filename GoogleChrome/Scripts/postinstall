@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Run post install
+
+echo "Running post install"
