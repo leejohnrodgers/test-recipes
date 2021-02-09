@@ -8,7 +8,7 @@ fi
 
 #Create files if they dont exist for localhome and home
 
-for USERFOLDER in "home localhome"
+for USERFOLDER in "home" "localhome"
 do
 	if [ -d /Users/$USERFOLDER/Library/Application\ Support/Firefox/Profiles/internetuser.default ]
 	then
