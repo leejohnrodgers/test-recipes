@@ -19,10 +19,13 @@ if [ -d /User/home/Library/Application\ Support/Firefox/profiles.ini ]
 then
 	echo "Profile.ini exists"
 else
-	echo  "[Profile0]
+	
+	mkdir -p /User/home/Library/Application\ Support/Firefox/
+	echo "[Profile0]
 Name=internetuser.default
 IsRelative=1
 Path=Profiles/internetuser.default
-" > /Library/Application\ Support/Firefox/profiles.ini
+" > /User/home/Library/Application\ Support/Firefox/profiles.ini
+	chmod -R a+rwx /User/home/Library/Application\ Support/Firefox/
 fi
 
