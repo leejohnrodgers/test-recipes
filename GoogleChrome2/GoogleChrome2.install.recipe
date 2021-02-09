@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Google Chrome disk image, builds a package and installs it.</string>
     <key>Identifier</key>
-    <string>com.github.ljrtesting.install.googlechrome</string>
+    <string>com.github.ljrtesting.install.googlechrome2</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
