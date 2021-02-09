@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Firefox disk image and builds a package. The installer package includes a preinstall script that will check for an existing Firefox.app in /Applications and remove it if found.</string>
     <key>Identifier</key>
-    <string>com.github.ljrtesting.pkg.gnmfirefox/string>
+    <string>com.github.ljrtesting.pkg.gnmfirefox</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
