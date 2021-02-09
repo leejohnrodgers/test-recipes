@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>GNM_Firefox</string>
+        <string>GNMFirefox</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.autopkg.pkg.Firefox_EN</string>
