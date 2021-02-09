@@ -3,13 +3,15 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest Firefox disk image and builds a package. The installer package includes a preinstall script that will check for an existing Firefox.app in /Applications and remove it if found.</string>
+    <string>Downloads latest Firefox en-GB disk image and builds a package. The installer package includes a preinstall script that will check for an existing Firefox.app in /Applications and remove it if found. It will aloo create internetuser.default profile files for the localhome and home user folders</string>
     <key>Identifier</key>
-    <string>com.github.ljrtesting.pkg.gnmfirefox</string>
+    <string>uk.co.guardian.pkg.GNM_Firefox_enGB</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>Firefox</string>
+        <key>LOCALE</key>
+		<string>en-GB</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.autopkg.pkg.Firefox_EN</string>
@@ -57,7 +59,7 @@
                 <key>pkg_request</key>
                 <dict>
                     <key>pkgname</key>
-                    <string>GNM_%NAME%_%version%</string>
+                    <string>GNM_%NAME%_%version%_autopkg</string>
                     <key>version</key>
                     <string>%version%</string>
                     <key>id</key>
