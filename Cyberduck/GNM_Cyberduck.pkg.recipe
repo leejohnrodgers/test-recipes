@@ -41,7 +41,7 @@
                     <key>version</key>
                     <string>%version%</string>
                     <key>id</key>
-                    <string>uk.co.guardian.GNM_%NAME%_%version%_autopkg</string>
+                    <string>uk.co.guardian.GNM%NAME%%version%autopkg</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
                     <key>chown</key>
